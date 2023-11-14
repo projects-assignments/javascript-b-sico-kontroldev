@@ -50,17 +50,17 @@ describe("Condicionales en JavaScript", () => {
 })
 
  describe("Escribe tus propios tests", () => {
-     it("Si la persona es de Reino Unido (UK), le saludamos en inglés, y si no, le saludamos en castellano", () => {
-         let country = "UK";
-         let greeting;
+   it("Si la persona es de Reino Unido (UK), le saludamos en inglés, y si no, le saludamos en castellano", () => {
+   let country = "UK";
+        let greeting;
 
-         if (country === "UK") {
+        if (country === "UK") {
             greeting = "Hello!";
         } else {
             greeting = "¡Hola!";
         }
-        
-         assert.strictEqual(greeting).toBe("Hello!");
+
+        assert.strictEqual(greeting, "Hello!");
      })
 
 
@@ -68,7 +68,13 @@ describe("Condicionales en JavaScript", () => {
          let hour = 19;
          let saludo;
 
-         // Escribe aquí tu condicional contemplando las 3 casuísticas
+         if (hour < 12) {
+            saludo = "Buenos días";
+        } else if (hour >= 12 && hour < 20) {
+            saludo = "Buenas tardes";
+        } else {
+            saludo = "Buenas noches";
+        }
 
 
          assert.strictEqual(saludo,"Buenas tardes");
