@@ -43,21 +43,24 @@ describe("Funciones en JavaScript", () => {
             weatherReport(userName, name, city, weather, rainProbability),
             "Hola Ada Martín (ada89), hoy en Las Vegas el tiempo es soleado y las probabilidades de lluvia son del 10%."
     
+        })
 
+
+
+        // BONUS: Crea un test que te permita testear la función que verás a continuación. Para ello, también te hemos proporcionado las variables que necesitarás (y alguna más que no necesitarás, para confundir :P).
+        // Recuerda quitar la puntuación de comentario (/* ... */) para que este código a continuación sea legible, e inclúyelo dentro de tu test.
     
-
-
-    // BONUS: Crea un test que te permita testear la función que verás a continuación. Para ello, también te hemos proporcionado las variables que necesitarás (y alguna más que no necesitarás, para confundir :P).
-    // Recuerda quitar la puntuación de comentario (/* ... */) para que este código a continuación sea legible, e inclúyelo dentro de tu test.
-
-
-    /*let userName = "Ariana28";
-    let userAge = 38;
-    let userEmail = "ariana_28@gmail.com";
-    let userLocation = "Barcelona";
-    let userIsRegistered = true;
-    let password = "p4s$w0rDs3guR0";
     
-    function userAuth(userName, userEmail, password) {
-        return `Welcome ${userName}, your email is ${userEmail} and your password is ${password}.`;
-    }*/
+         /*    let userName = "Ariana28";
+            let userAge = 38;
+            let userEmail = "ariana_28@gmail.com";
+            let userLocation = "Barcelona"
+            let userIsRegistered = true;
+            let password = "p4s$w0rDs3guR0";
+    
+            function userAuth(userName, userEmail, password) {
+                return "Welcome ${userName}, your email is ${userEmail} and your password is ${password}."
+            } */
+    
+    
+        })
