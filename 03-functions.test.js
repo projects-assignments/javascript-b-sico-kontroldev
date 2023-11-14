@@ -42,7 +42,7 @@ describe("Funciones en JavaScript", () => {
         assert.strictEqual(
             weatherReport(userName, name, city, weather, rainProbability),
             "Hola Ada Martín (ada89), hoy en Las Vegas el tiempo es soleado y las probabilidades de lluvia son del 10%."
-    });
+    
 
     
 
